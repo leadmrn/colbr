@@ -1,0 +1,14 @@
+.FormSignUp{
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  animation: appear 1s forwards;
+  &.disappear{
+    animation: disappear 1s forwards;
+  }
+
+  .alert{
+    margin-bottom: 0;
+    animation: appearAlert .7s forwards;
+  }
+}

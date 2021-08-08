@@ -14,16 +14,14 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div>
-          <Switch>
-            <Route exact path="/">
-              <Form />
-            </Route>
-            <Route path="/dashboard">
-              <Dashboard />
-            </Route>
-          </Switch>
-        </div>
+        <Switch>
+          <Route exact path="/">
+            <Form />
+          </Route>
+          <Route path="/dashboard">
+            <Dashboard />
+          </Route>
+        </Switch>
       </Router>
     </div>
   );

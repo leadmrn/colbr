@@ -24,7 +24,7 @@ function FormSignUp(){
     document.querySelector('.FormSignUp').classList.add('disappear');
     setTimeout(()=>{
       setSignUp(true);
-    }, 1500);
+    }, 1000);
   }
 
   return(
